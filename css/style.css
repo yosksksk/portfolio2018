@@ -25,11 +25,11 @@ section {
   position: relative;
   padding: 10vh 10vw;
   min-height: 100vh;
-  /* color: #333; */
   width: 100%;
   height: 100%;
   background-color: aliceblue;
   display: flex;
+  background: rgb(243, 187, 215);
 }
 
 section::after {
@@ -49,26 +49,72 @@ section::after {
   align-items: center;
   width: 70%;
   height: 70%;
+  font-size: 1rem;
+  margin-top: 80px;
+  margin-left: 150px;
 }
 
 #introduction img {
   margin-right: 100px;
+  z-index: 2;
 }
 
+.profile {
+  width: 500px;
+}
+
+li {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  z-index: 1;
+  }
+
 section:nth-child(2) {
-  background: #4dc6e6;
+  /* background: #4dc6e6; */
+  background: #009bdb;
   color: #fff;
 }
 
 section:nth-child(3) { 
-  background: #0aba58;
+  background: #fac700;
    color: #fff; 
 }
 
 section:nth-child(4) {
-  background: #f8c82d; 
+  background:#67b62d; 
   color: #fff; 
 }
+
+section:nth-child(5) {
+  background:#ff8b22; 
+  color: #fff; 
+}
+
+section:nth-child(5) {
+  background:#e63c35; 
+  color: #fff; 
+}
+
+section:nth-child(6) {
+  background:#ff8b22; 
+  color: #fff; 
+}
+
 
 pre {
   font-size: .75em;
@@ -124,9 +170,15 @@ a {
   stroke-dashoffset:1500;
 }
 
+#svg-animation {
+  width: 500px;
+}
+
 /* SVGの位置 */
 .hero {
   margin-top: 15%;
+  display: flex;
+  justify-content: center;
 }
 
 /* 上下左右の中央寄せ */
@@ -148,7 +200,7 @@ a {
   flex-direction: column;
 }
 @media screen and (max-width: 320px) and (max-height: 480px) {
-  .boxing {
+  .svg_logo {
     width: 320px;
     height: 480px;
   }
@@ -267,20 +319,18 @@ a {
 
 /* ページごとの背景設定 */
 
-#section01 { background: url(../images/hero.jpg) center center / cover no-repeat; }
+/* #section01 { background: url(../images/hero.jpg) center center / cover no-repeat; } */
 /* #section02 { background: url(../images/venture.jpg) center center / cover no-repeat;} */
 /* #section02 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg02.jpg) center center / cover no-repeat;} */
-#section03 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;}
-#section04 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;}
-#section05 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg05.jpg) center center / cover no-repeat;}
-#section06 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg06.jpg) center center / cover no-repeat;}
-#section07 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg07.jpg) center center / cover no-repeat;}
-#section08 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg08.jpg) center center / cover no-repeat;}
-#section09 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg09.jpg) center center / cover no-repeat;}
+/* #section03 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;} */
+/* #section04 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;} */
+/* #section05 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg05.jpg) center center / cover no-repeat;} */
+/* #section06 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg06.jpg) center center / cover no-repeat;} */
+/* #section07 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg07.jpg) center center / cover no-repeat;} */
 
 /* side-navi */
 
-.side-navi-mobile {
+/* .side-navi-mobile {
   display: none;
   height: 100%;
   width: 166px;
@@ -320,13 +370,13 @@ a {
   .side-nav-mobile a {
     font-size: 18px;
   }
-}
+} */
 
 .side-navi {
   position: fixed;
   transform: rotate(270deg);
   top: 45%;
-  left: -200px;
+  left: -180px;
   z-index: 2;
 }
 
@@ -392,4 +442,6 @@ a {
   border-radius: 50%;
   width: 300px;
   height: 300px;
+  box-shadow: 0px 0px 10px #00000088;
 }
+/* svg_logoについての参照リンク https://www.willstyle.co.jp/blog/1569/ */
