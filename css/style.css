@@ -11,7 +11,7 @@ html, body {
 }
 
 article {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: Gotham, sans-serif;
   overflow-x: hidden;
 }
@@ -46,9 +46,14 @@ section::after {
 #introduction {
   display: flex;
   justify-content: space-around;
-  align-items: center;ß
+  align-items: center;
+  width: 70%;
+  height: 70%;
 }
 
+#introduction img {
+  margin-right: 100px;
+}
 
 section:nth-child(2) {
   background: #4dc6e6;
@@ -121,7 +126,7 @@ a {
 
 /* SVGの位置 */
 .hero {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 /* 上下左右の中央寄せ */
@@ -321,7 +326,7 @@ a {
   position: fixed;
   transform: rotate(270deg);
   top: 45%;
-  left: -300px;
+  left: -200px;
   z-index: 2;
 }
 
@@ -330,7 +335,7 @@ a {
 }
 
 .side-navi nav ul li {
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 
 .side-navi nav ul li a {
