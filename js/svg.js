@@ -1,6 +1,6 @@
 var st0 = document.querySelectorAll('.st0');
 var anime = function(){
-    new Vivus('svg-animation', {type: 'scenario-sync',duration: 5, forceRender: false ,animTimingFunction:Vivus.EASE},function(){
+    new Vivus('svg-animation', {type: 'scenario-sync',duration: 9, forceRender: false ,animTimingFunction:Vivus.EASE},function(){
     setTimeout(function(){  
         for(var i =0;i < st0.length; i ++)
             st0[i].removeAttribute('style');
