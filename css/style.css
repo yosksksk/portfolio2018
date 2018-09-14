@@ -126,6 +126,12 @@ section h1 {
   opacity: .7;
 }
 
+@media (max-width: 460px){
+  .scroll {
+    display: none;
+  }
+}
+
 .scroll a span {
   position: absolute;
   top: 0;
@@ -300,7 +306,7 @@ section h1 {
 }
 @media (max-width: 460px) {
   .hero{
-    margin-top: 60%;
+    margin-top: 50%;
   }
 }
 
@@ -358,7 +364,7 @@ section h1 {
   #introduction{
     justify-content: center;
     margin: 0 auto;
-    height: 470px;
+    height: 430px;
   }
 }
 
@@ -392,6 +398,7 @@ section h1 {
 @media (max-width: 460px) {
   .profile{
     width: 300px;
+    height: 300px;
   }
   .profile li {
     font-size: 0.8rem;
@@ -410,7 +417,7 @@ section h1 {
 }
 @media (max-width: 460px) {
   .sns p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -437,7 +444,10 @@ section h1 {
     height: 400px;
   }
   .description li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+  .description li a {
+    display: none;
   }
 }
 
@@ -465,8 +475,8 @@ section h1 {
 }
 @media (max-width: 460px) {
   .company img {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     margin-left: 40px;
     margin-right: 10px; 
   }
@@ -486,7 +496,7 @@ section h1 {
 }
 @media (max-width: 460px){
   .projects {
-    height: 600px;
+    height: 500px;
   }
 }
 
