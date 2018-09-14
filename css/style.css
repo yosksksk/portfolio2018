@@ -29,7 +29,8 @@ section {
   height: 100%;
   background-color: aliceblue;
   display: flex;
-  background: rgb(243, 187, 215);
+  background:  #fcdd60;
+  /* background: rgb(243, 187, 215); */
 }
 
 section::after {
@@ -95,15 +96,17 @@ section:nth-child(3) {
    color: #fff; 
 }
 
+
 section:nth-child(4) {
-  background:#a5f073; 
+  background:#f8a75b; 
   color: #fff; 
 }
 
 section:nth-child(5) {
-  background:#f8a75b; 
+  background:#a5f073; 
   color: #fff; 
 }
+
 
 
 pre {
