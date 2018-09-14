@@ -51,7 +51,7 @@ section::after {
   justify-content: space-around;
   align-items: center;
   width: 70%;
-  height: 70%;
+  height: 500px;
   font-size: 1rem;
   margin-top: 80px;
   margin-left: 150px;
@@ -63,7 +63,7 @@ section::after {
 }
 
 .profile {
-  width: 500px;
+  width: 700px;
 }
 
 li {
@@ -315,93 +315,14 @@ a {
 
 /* Topへ戻るのScroll */
 
-.scrollup a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 46px;
-  height: 46px;
-  margin-left: -23px;
-  border: 1px solid #fff;
-  border-radius: 100%;
-  box-sizing: border-box;
-}
-
 .scrollup a span::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: '';
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
   transform: rotate(135deg);
-  box-sizing: border-box;
-}
-.scrollup a span::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  content: '';
-  width: 44px;
-  height: 44px;
-  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
-  border-radius: 100%;
-  opacity: 0;
-  -webkit-animation: sdb03 3s infinite;
-  animation: sdb03 3s infinite;
-  box-sizing: border-box;
-}
-@-webkit-keyframes sdb03 {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes sdb03 {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
-
-/* ページごとの背景設定 */
-
-/* #section01 { background: url(../images/hero.jpg) center center / cover no-repeat; } */
-/* #section02 { background: url(../images/venture.jpg) center center / cover no-repeat;} */
-/* #section02 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg02.jpg) center center / cover no-repeat;} */
-/* #section03 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg03.jpg) center center / cover no-repeat;} */
-/* #section04 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;} */
-/* #section05 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg05.jpg) center center / cover no-repeat;} */
-/* #section06 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg06.jpg) center center / cover no-repeat;} */
-/* #section07 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg07.jpg) center center / cover no-repeat;} */
 
 /* side-navi */
 
-/* .side-navi-mobile {
+.side-navi-mobile {
   display: none;
   height: 100%;
   width: 166px;
@@ -441,7 +362,7 @@ a {
   .side-nav-mobile a {
     font-size: 18px;
   }
-} */
+}
 
 .side-navi {
   position: fixed;
@@ -470,6 +391,7 @@ a {
   text-decoration-color: #333;
   color: #6a6a6a;
 }
+
 
 #copyright{
   padding-top: 60px;
@@ -514,7 +436,7 @@ a {
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  box-shadow: 0px 0px 10px #00000088;
+  box-shadow: 0px 0px 10px #29262688;
 }
 /* svg_logoについての参照リンク https://www.willstyle.co.jp/blog/1569/ */
 
@@ -529,7 +451,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 700px;
 }
 
 .projects a:hover img {
@@ -538,4 +460,34 @@ a {
 
 section h1 {
   font-family: 'Futura', sans-serif;
+}
+
+.projects a {
+  cursor: pointer;
+}
+
+#jobs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+}
+
+.company img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+
+.company a:hover img {
+  box-shadow: 0px 0px 10px #94939388;
 }
