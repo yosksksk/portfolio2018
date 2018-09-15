@@ -573,4 +573,16 @@ section h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.detail {
+  flex-direction: column;
+}
+
+@media (max-width: 460px) {
+  .coming {
+   position: absolute;
+   margin-top: 120px; 
+  }
 }
