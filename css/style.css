@@ -446,7 +446,7 @@ section h1 {
 }
 
 .description li{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .description li a{
@@ -489,10 +489,9 @@ section h1 {
 }
 
 .company img {
-  width: 90px;
-  height: 90px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
   border-radius: 5%;
 }
 @media (max-width: 460px) {
@@ -564,4 +563,11 @@ section h1 {
     bottom: 0px;
     padding-top: 20px;
   }
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
