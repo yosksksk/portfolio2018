@@ -406,87 +406,6 @@ section h1 {
   color: #000;
 }
 
-#jobs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  width: 800px;
-  margin-top: 80px;
-  margin-left: 150px;
-}
-
-.description {
-  width: 650px;
-}
-
-.description li{
-  font-size: 1.0rem;
-}
-
-.description li a{
-  color: #47A0EC;
-}
-
-.description li a:hover{
-  color: rgb(31, 139, 233);
-}
-
-@media (max-width: 460px){
-  #jobs {
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 10px;
-  }
-  .description {
-    height: 400px;
-    width: 150px;
-  }
-  .description li {
-    font: 0.5rem;
-  }
-  .description li a {
-    display: none;
-  }
-  .internship {
-    display: none;
-  }
-}
-
-.company {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  width: 350px;
-}
-@media (max-width: 460px) {
-  .company{
-    width: 100px;
-    align-items: flex-start;
-    height: 400px;
-    align-content: stretch;
-  }
-}
-
-.company img {
-  width: 70px;
-  height: 70px;
-  margin: 10px;
-  border-radius: 5%;
-}
-@media (max-width: 460px) {
-  .company img {
-    width: 60px;
-    height: 60px;
-    margin: 5px 30px;
-  }
-}
-
-.company a:hover img {
-  box-shadow: 0px 0px 10px #94939388;
-}
-
 .projects {
   display: flex;
   justify-content: center;
@@ -667,4 +586,196 @@ h5.modal-title {
 
 .modal-content {
   padding: 20px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 900px;
+  margin-top: 50px;
+}
+
+.job-item {
+  width: 165px;
+  height: 230px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border: 0.5px rgb(255, 255, 255) solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.job-item img {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  border-radius: 5%;
+}
+
+.job-item p {
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(44, 49, 62);
+}
+
+.comname {
+  font-weight: bold;
+}
+
+.job-item a:hover img {
+  box-shadow: 0px 0px 10px #94939388;
+}
+
+a.sitelink {
+  color: rgb(39, 43, 69);
+}
+
+a.sitelink:hover {
+  color: rgb(69, 68, 68);
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 460px) {
+
+  #section08 {
+    padding: 0px;
+    padding-top: 50px;
+  }
+  .container{
+    margin-top: 0px;
+    padding: 5px;
+  }
+  .job-item {
+    width: 80px;
+    height: 120px;
+    padding: 3px;
+    margin: 5px;
+  }
+  .job-item img {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+  }
+
+  .job-item p{
+    margin-bottom: 1px;
+  }
+
+  .comname{
+    font-size: 1rem;
+  }
+
+  .job-item .mobile{
+    display: none;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .mobile {
+    display: inherit;
+  }
+
+  .pc {
+    display: none;
+  }
+
+
+}
+
+#jobs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 800px;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+.description {
+  width: 650px;
+}
+
+.description li{
+  font-size: 1.0rem;
+}
+
+.description li a{
+  color: #47A0EC;
+}
+
+.description li a:hover{
+  color: rgb(31, 139, 233);
+}
+
+@media (max-width: 460px){
+  #jobs {
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: auto;
+  }
+  .description {
+    height: 400px;
+    width: 150px;
+  }
+  .description li {
+    font: 0.5rem;
+  }
+  .description li a {
+    display: none;
+  }
+  .internship {
+    display: none;
+  }
+}
+
+.company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 350px;
+}
+@media (max-width: 460px) {
+  .company{
+    width: 100px;
+    align-items: flex-start;
+    height: 400px;
+    align-content: stretch;
+  }
+}
+
+.company img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 5%;
+}
+@media (max-width: 460px) {
+  .company img {
+    width: 60px;
+    height: 60px;
+    margin: 5px 30px;
+  }
+}
+
+.company a:hover img {
+  box-shadow: 0px 0px 10px #94939388;
 }
