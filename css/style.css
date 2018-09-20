@@ -523,6 +523,10 @@ a.sitelink:hover {
   margin-left: 150px;
 }
 
+p.middle {
+  display: none;
+}
+
 .description {
   width: 650px;
 }
@@ -756,11 +760,76 @@ a.sitelink:hover {
 }
 
 /* ipad */
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 979px) {
+  .hero {
+    margin-top: 45%;
+  }
 
+  #introduction {
+    justify-content: center;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 0px;
+  } 
+
+  #introduction img {
+    margin-right: 0px;
+  }
+
+  .job-item {
+    width: 150px;
+    height: 140px;
+  }
+
+  .job-item img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .job-item p.pc {
+    display: none;
+  }
+
+  p.middle {
+    display: inherit;
+  }
+
+  .projects {
+    height: 630px;
+  }
 }
 
-/* pc ~1440px */
-@media screen and (min-width: 980px) and (max-width: 1440px) {
 
+
+/*  ipad pro , pc ~1440px */
+@media screen and (min-width: 980px) and (max-width: 1200px) {
+  .hero {
+    margin-top: 45%;
+  }
+
+  #introduction {
+    justify-content: center;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 0px;
+  } 
+
+  #introduction img {
+    margin-right: 40px;
+  }
+
+  .job-item {
+    width: 200px;
+    height: 220px;
+  }
+
+  .job-item img {
+    width: 70px;
+    height: 70px;
+  }
+
+
+  .projects {
+    height: 800px;
+  }
 }
