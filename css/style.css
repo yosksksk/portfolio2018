@@ -799,8 +799,8 @@ p.middle {
   }
 }
 
-/*  ipad pro , pc ~1024px */
-@media screen and (min-width: 980px) and (max-width: 1024px) {
+/*  ipad pro , pc ~1000px */
+@media screen and (min-width: 980px) and (max-width: 1000px) {
   .hero {
     margin-top: 45%;
   }
@@ -831,6 +831,56 @@ p.middle {
     height: 800px;
   }
 }
+
+
+/*  pc 1001~1040px */
+@media screen and (min-width: 1001px) and (max-width: 1024px) {
+
+  #introduction {
+    justify-content: center;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 0px;
+  } 
+
+  #introduction img {
+    margin-right: 60px;
+  }
+
+  .job-item {
+    width: 100px;
+    height: 160px;
+  }
+
+  .job-item img {
+    width: 55px;
+    height: 55px;
+    margin-top: 3px;
+  }
+
+  .job-item p.pc {
+    display: none;
+  }
+
+  .projects {
+    height: 300px;
+  }
+
+  .project-item {
+    width: 150px;
+    height: 270px;
+  }
+
+  .project-item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .project-item h5 {
+    font-size: 1.3rem;
+  }
+}
+
 
 /*  pc ~1440px */
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
