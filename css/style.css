@@ -13,7 +13,6 @@ html, body {
 article {
   font-size: 1.8rem;
   font-family: Gotham, sans-serif;
-  overflow-x: hidden;
 }
 @media (max-width: 460px) {
   article {
