@@ -799,10 +799,8 @@ p.middle {
   }
 }
 
-
-
-/*  ipad pro , pc ~1440px */
-@media screen and (min-width: 980px) and (max-width: 1200px) {
+/*  ipad pro , pc ~1024px */
+@media screen and (min-width: 980px) and (max-width: 1024px) {
   .hero {
     margin-top: 45%;
   }
@@ -831,5 +829,35 @@ p.middle {
 
   .projects {
     height: 800px;
+  }
+}
+
+/*  pc ~1440px */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+  #introduction {
+    justify-content: center;
+    height: 380px;
+    margin-top: 0px;
+    margin-left: 0px;
+  } 
+
+  #introduction img {
+    margin-right: 80px;
+  }
+
+  .job-item {
+    width: 150px;
+    height: 210px;
+  }
+
+  .job-item img {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+  }
+
+  .projects {
+    height: 400px;
   }
 }
